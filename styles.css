@@ -1,0 +1,106 @@
+:root {
+    --burnt-orange: #FF6C11;
+    --raspberry-red: #FF3864;
+    --aqua-blue: #2DE2E6;
+    --deep-indigo: #261447;
+    --midnight-black: #0D0221;
+    --royal-blue: #023788;
+    --vivid-purple: #650D89;
+    --deep-magenta: #920075;
+    --hot-pink: #F6019D;
+    --electric-pink: #D40078;
+    --twilight-blue: #241734;
+    --mystic-violet: #2E2157;
+    --coral-pink: #FD3777;
+    --neon-pink: #F706CF;
+    --fuchsia: #FD1D53;
+    --golden-yellow: #F9C80E;
+    --sunset-red: #FF4365;
+    --plum-purple: #540D6E;
+    --amethyst: #791E94;
+    --violet-blue: #541388;
+    --overflow-color: var(--twilight-blue);
+    --background-color: var(--midnight-black);
+    --text-color: var(--aqua-blue);
+    --section-color: var(--amethyst);
+    --header-color: var(--golden-yellow);
+    --header-2-color: var(--coral-pink);
+    --header-3-color: var(--electric-pink);
+    --link-color: var(--golden-yellow);
+}
+
+body {
+    background-color: var(--overflow-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    width: 100%;
+    max-width: 1080px;
+    background: var(--background-color);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-block-end: 0
+}
+
+p, ul {
+    margin-block-start: 0
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+
+    color: var(--header-color);
+}
+
+h2 {
+    font-family: "Lora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--header-2-color);
+}
+
+h3 {
+    font-family: "Lora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--header-3-color);
+}
+
+thead {
+    text-align: left;
+    color: var(--header-3-color);
+}
+
+td {
+    padding-right: .5rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
